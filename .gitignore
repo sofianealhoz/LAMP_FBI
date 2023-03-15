@@ -1,0 +1,281 @@
+# ===========================================
+# FICHIERS DE CONFIGURATION SENSIBLES
+# ===========================================
+config.php
+configuration.php
+*.config.php
+.env
+.env.local
+.env.*.local
+
+# ===========================================
+# FICHIERS SYSTÈME ET IDE
+# ===========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===========================================
+# IDE ET ÉDITEURS
+# ===========================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PHPStorm / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ===========================================
+# PYTHON (pour votre dossier env)
+# ===========================================
+
+# Environnements virtuels Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===========================================
+# PHP
+# ===========================================
+
+# Composer
+vendor/
+composer.phar
+composer.lock
+
+# Laravel (si vous utilisez Laravel plus tard)
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+
+# ===========================================
+# BASE DE DONNÉES
+# ===========================================
+
+# Dumps SQL (garder uniquement le schema de base)
+*.sql
+!db/fbi.sql
+!db/schema.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Fichiers de backup
+*.bak
+*.backup
+*.old
+
+# ===========================================
+# LOGS
+# ===========================================
+*.log
+logs/
+*.err
+error_log
+access_log
+
+# ===========================================
+# UPLOADS ET FICHIERS TEMPORAIRES
+# ===========================================
+
+# Dossiers d'uploads (créer un .gitkeep dedans)
+uploads/*
+!uploads/.gitkeep
+
+# Fichiers temporaires
+temp/
+tmp/
+cache/
+*.tmp
+*.temp
+*.cache
+
+# ===========================================
+# FICHIERS CACHÉS ET SENSIBLES
+# ===========================================
+
+# Clés SSH
+*.pem
+*.key
+*.pub
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Certificats SSL
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# ===========================================
+# NODE.JS (si vous ajoutez npm plus tard)
+# ===========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ===========================================
+# ASSETS COMPILÉS
+# ===========================================
+
+# Garder les CSS/JS Bootstrap mais ignorer les maps
+*.map
+*.min.css.map
+*.min.js.map
+
+# Sass/SCSS compilés (si vous en utilisez)
+*.css.map
+*.sass.map
+*.scss.map
+
+# ===========================================
+# DOCUMENTATION GÉNÉRÉE
+# ===========================================
+docs/_build/
+site/
+
+# ===========================================
+# TESTS
+# ===========================================
+coverage/
+.phpunit.result.cache
+phpunit.xml
+.phpunit.cache/
+
+# ===========================================
+# DOCKER (si vous dockerisez plus tard)
+# ===========================================
+docker-compose.override.yml
+.dockerignore
+
+# ===========================================
+# GIT
+# ===========================================
+*.orig
+*.rej
+*.patch
+
+# ===========================================
+# SAUVEGARDES AUTOMATIQUES
+# ===========================================
+*~
+*.swp
+*.swo
+*~
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# ===========================================
+# FICHIERS SPÉCIFIQUES AU PROJET
+# ===========================================
+
+# Ne pas versionner config.json s'il contient des secrets
+# config.json (décommentez si nécessaire)
+
+# Images de test (garder seulement les assets finaux)
+test_images/
+*.test.jpg
+*.test.png
+
+# ===========================================
+# FICHIERS VOLUMINEUX
+# ===========================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.iso
+*.dmg
+
+# Vidéos et audio
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+*.flac
+
+# Fichiers volumineux (>10MB généralement)
+*.large
+
+# ===========================================
+# SÉCURITÉ
+# ===========================================
+
+# Fichiers de mots de passe
+passwords.txt
+secrets.txt
+credentials.txt
+
+# Fichiers de sessions PHP (si stockés en fichiers)
+sessions/
+sess_*
+
+# ===========================================
+# PERFORMANCE
+# ===========================================
+
+# Cache d'opcache PHP
+.opcache/
+
+# Cache Composer
+.composer/cache/
